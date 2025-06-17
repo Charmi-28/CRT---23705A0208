@@ -1,0 +1,12 @@
+//EvenoddNumber.java
+import EvenoddNumber {
+public ststic void main (String()args) {
+Scanner sin =new Scanner(System.in);
+System.out.println("eneter number:");
+int n=sin nextint();
+if(n%2==0)
+System.out.println(n="is even number");
+else
+System.out.println(n+"is odd number");
+}
+}

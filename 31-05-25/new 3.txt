@@ -1,0 +1,15 @@
+//Division.java
+import java.util.*;
+class Division
+{
+public Static void main(String[]args)
+{
+Scanner sin=new Scanner(System.in);
+System.out.println("enter a:");
+int a=sin.nextInt();
+System.out.println("enter b:");
+int b=sin.nextInt();
+double c=(double)a/b;
+System.out.println(division of "+a" and "+b" is "+c);
+}
+}

@@ -1,0 +1,34 @@
+//switchArithematic.java
+import java.util.*;
+class switchArithematic {
+public static void main(String[] args) {
+Scanner sin=new Scanner(System.in);
+int a,d;
+System.out.println("enter a,b");
+a=sin.nextInt();
+b=sin.nextInt();
+int c;
+double d;
+System.out.println("1-addition 2-subtraction 3-multiplication 4-division 5-module division");
+int op= sin.nextInt();
+switch (op) {
+case 1: c=a+b;
+System.out.println("addition"+c);
+break;
+case 2: c=a-b;
+System.out.println("subtraction"+c);
+break;
+case 3: c=a*b;
+System.out.println("multiplication"+c);
+break;
+case 4: d=(double)a/b;
+System.out.print("division"+d);
+break;
+case 5: c=a%b;
+System.out.println("module division"+c);
+break;
+default:System.out.println("invalid choice");
+}
+}
+}
+
